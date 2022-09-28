@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { createNewNote, readNotes, deleteNote } = require('../../lib/notes');
+const { createNewNote, readNotes, deleteNote } = require('../../lib/index');
 const uniqid = require('uniqid');
 
 router.get('/notes', (req, res) => {
